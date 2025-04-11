@@ -1,0 +1,30 @@
+2025-04-11 12:23:14,733 INFO    MainThread:46481 [wandb_setup.py:_EarlyLogger._flush():76] Current SDK version is 0.15.5
+2025-04-11 12:23:14,733 INFO    MainThread:46481 [wandb_setup.py:_EarlyLogger._flush():76] Configure stats pid to 46481
+2025-04-11 12:23:14,733 INFO    MainThread:46481 [wandb_setup.py:_EarlyLogger._flush():76] Loading settings from /root/.config/wandb/settings
+2025-04-11 12:23:14,734 INFO    MainThread:46481 [wandb_setup.py:_EarlyLogger._flush():76] Loading settings from /learning_data/outputs/2025-04-11/12-23-11/wandb/settings
+2025-04-11 12:23:14,734 INFO    MainThread:46481 [wandb_setup.py:_EarlyLogger._flush():76] Loading settings from environment variables: {}
+2025-04-11 12:23:14,734 INFO    MainThread:46481 [wandb_setup.py:_EarlyLogger._flush():76] Applying setup settings: {'_disable_service': False}
+2025-04-11 12:23:14,734 WARNING MainThread:46481 [wandb_setup.py:_EarlyLogger._flush():76] Could not find program at ../workspace/ssrl_ws/src/ssrl_ros_go1/scripts/train.py
+2025-04-11 12:23:14,734 INFO    MainThread:46481 [wandb_setup.py:_EarlyLogger._flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program': '../workspace/ssrl_ws/src/ssrl_ros_go1/scripts/train.py'}
+2025-04-11 12:23:14,734 INFO    MainThread:46481 [wandb_init.py:_WandbInit._log_setup():507] Logging user logs to /learning_data/outputs/2025-04-11/12-23-11/wandb/run-20250411_122314-6ike922p/logs/debug.log
+2025-04-11 12:23:14,734 INFO    MainThread:46481 [wandb_init.py:_WandbInit._log_setup():508] Logging internal logs to /learning_data/outputs/2025-04-11/12-23-11/wandb/run-20250411_122314-6ike922p/logs/debug-internal.log
+2025-04-11 12:23:14,735 INFO    MainThread:46481 [wandb_init.py:_WandbInit.init():547] calling init triggers
+2025-04-11 12:23:14,735 INFO    MainThread:46481 [wandb_init.py:_WandbInit.init():554] wandb.init called with sweep_config: {}
+config: {}
+2025-04-11 12:23:14,735 INFO    MainThread:46481 [wandb_init.py:_WandbInit.init():596] starting backend
+2025-04-11 12:23:14,735 INFO    MainThread:46481 [wandb_init.py:_WandbInit.init():600] setting up manager
+2025-04-11 12:23:14,750 INFO    MainThread:46481 [backend.py:Backend._multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-11 12:23:14,759 INFO    MainThread:46481 [wandb_init.py:_WandbInit.init():606] backend started and connected
+2025-04-11 12:23:14,768 INFO    MainThread:46481 [wandb_init.py:_WandbInit.init():705] updated telemetry
+2025-04-11 12:23:14,841 INFO    MainThread:46481 [wandb_init.py:_WandbInit.init():738] communicating run to backend with 60.0 second timeout
+2025-04-11 12:23:15,629 INFO    MainThread:46481 [wandb_init.py:_WandbInit.init():781] run resumed
+2025-04-11 12:23:15,685 INFO    MainThread:46481 [wandb_run.py:Run._on_init():2173] communicating current version
+2025-04-11 12:23:15,870 INFO    MainThread:46481 [wandb_run.py:Run._on_init():2182] got version response upgrade_message: "wandb version 0.19.9 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-04-11 12:23:15,870 INFO    MainThread:46481 [wandb_init.py:_WandbInit.init():789] starting run threads in backend
+2025-04-11 12:23:15,920 INFO    MainThread:46481 [wandb_run.py:Run._console_start():2152] atexit reg
+2025-04-11 12:23:15,920 INFO    MainThread:46481 [wandb_run.py:Run._redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2025-04-11 12:23:15,921 INFO    MainThread:46481 [wandb_run.py:Run._redirect():2072] Wrapping output streams.
+2025-04-11 12:23:15,921 INFO    MainThread:46481 [wandb_run.py:Run._redirect():2097] Redirects installed.
+2025-04-11 12:23:15,923 INFO    MainThread:46481 [wandb_init.py:_WandbInit.init():830] run started, returning control to user process
+2025-04-11 12:31:52,421 WARNING MsgRouterThr:46481 [router.py:MessageSockRouter.message_loop():77] message_loop has been closed

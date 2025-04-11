@@ -1,0 +1,41 @@
+
+[2025-04-11 12:23:16,104][root][INFO] - Converting mesh (-6508487540717391653, -3142956339992392668) into convex hull.
+[2025-04-11 12:23:19,700][root][INFO] - Converting mesh (-336240684790901316, -4252369478136587021) into convex hull.
+[2025-04-11 12:23:20,147][root][INFO] - Converting mesh (-767403292491429412, -6914773662840270276) into convex hull.
+[2025-04-11 12:23:21,474][root][INFO] - Converting mesh (-423445146569927602, 7858675704959498010) into convex hull.
+[2025-04-11 12:23:22,486][root][INFO] - Converting mesh (7038789208781774805, -2669387333210004914) into convex hull.
+Model horizon updated to 8.
+Hallucination updates per training step updated to 1000.
+SAC buffer resized to 400000 samples.
+Loading data
+Creating stacked obs
+Calculating rewards
+Loading data
+Creating stacked obs
+Calculating rewards
+Building transitions
+/workspace/submodules/ssrl/ssrl/brax/training/replay_buffers.py:121: FutureWarning: jax.tree_flatten is deprecated, and will be removed in a future release. Use jax.tree_util.tree_flatten instead.
+  insert_size = jax.tree_flatten(samples)[0][0].shape[0] // shards
+Rollout steps: 1002
+Total reward / rollout steps: nan
+/usr/local/lib/python3.8/dist-packages/plotly/matplotlylib/renderer.py:645: UserWarning:
+Looks like the annotation(s) you are trying
+to draw lies/lay outside the given figure size.
+Therefore, the resulting Plotly figure may not be
+large enough to view the full text. To adjust
+the size of the figure, use the 'width' and
+'height' keys in the Layout object. Alternatively,
+use the Margin object to adjust the figure's margins.
+{'stats/avg_episode_length': Array(506., dtype=float64), 'stats/max_episode_length': Array(558., dtype=float64), 'stats/avg_forward_vel': Array(-0.02039122, dtype=float64), 'stats/first_avg_forward_vel': Array(-0.02039132, dtype=float64), 'stats/avg_side_vel': Array(0.02163772, dtype=float64), 'rollout_steps': 1002, 'stats/avg_reward_per_step': Array(nan, dtype=float64), 'reward': Array(nan, dtype=float64), 'total_reward': Array(nan, dtype=float64), 'rew/penalty_torque_lim': Array(nan, dtype=float64), 'rew/rew_action': Array(nan, dtype=float64), 'rew/rew_ang_change': Array(0.05376344, dtype=float64), 'rew/rew_ang_vel': Array(0., dtype=float64), 'rew/rew_cosmetic': Array(0., dtype=float64), 'rew/rew_energy': Array(nan, dtype=float64), 'rew/rew_foot_z': Array(nan, dtype=float64), 'rew/rew_forward_vel': Array(-0.00877042, dtype=float64), 'rew/rew_joint_acc': Array(0., dtype=float64), 'rew/rew_joint_limits': Array(0., dtype=float64), 'rew/rew_pitch': Array(0.05368805, dtype=float64), 'rew/rew_roll': Array(0.05375572, dtype=float64), 'rew/rew_side_motion': Array(0.1026086, dtype=float64), 'rew/rew_torque_limits': Array(nan, dtype=float64), 'rew/rew_turn': Array(0.10748723, dtype=float64), 'rew/rew_yaw': Array(0.1075267, dtype=float64), 'rew/rew_z_vel_change': Array(0.03225806, dtype=float64), 'stats/avg_turn_rate': Array(-0.00854109, dtype=float64)}
+Starting training with the following parameters:
+{'episode_length': 1000, 'policy_repeat': 1, 'num_epochs': 30, 'model_trains_per_epoch': 1, 'training_steps_per_model_train': 1, 'env_steps_per_training_step': 1000, 'model_rollouts_per_hallucination_update': 400, 'sac_grad_updates_per_hallucination_update': 40, 'init_exploration_steps': 1000, 'clear_model_buffer_after_model_train': False, 'action_repeat': 1, 'obs_history_length': 5, 'num_envs': 1, 'num_evals': 31, 'num_eval_envs': 1, 'policy_normalize_observations': False, 'model_learning_rate': 0.001, 'model_training_batch_size': 200, 'model_training_max_sgd_steps_per_epoch': 20, 'model_training_max_epochs': 1000, 'model_training_convergence_criteria': 0.01, 'model_training_consec_converged_epochs': 6, 'model_training_abs_criteria': None, 'model_training_test_ratio': 0.2, 'model_training_weight_decay': True, 'model_training_stop_gradient': False, 'model_loss_horizon': 4, 'model_check_done_condition': True, 'max_env_buffer_size': 30000, 'max_model_buffer_size': 400000, 'sac_learning_rate': 0.0002, 'sac_discounting': 0.99, 'sac_batch_size': 256, 'real_ratio': 0.06, 'sac_reward_scaling': 1.0, 'sac_tau': 0.001, 'sac_fixed_alpha': None, 'seed': 0, 'deterministic_in_env': True, 'deterministic_eval': True, 'hallucination_max_std': -1.0, 'zero_final_layer_of_policy': False}
+Training...
+Model epoch 0: train total loss nan, train mean loss nan, test mean loss [nan nan nan nan nan nan nan]
+Model epoch 1: train total loss nan, train mean loss nan, test mean loss [nan nan nan nan nan nan nan]
+Model epoch 2: train total loss nan, train mean loss nan, test mean loss [nan nan nan nan nan nan nan]
+Model epoch 3: train total loss nan, train mean loss nan, test mean loss [nan nan nan nan nan nan nan]
+Model epoch 4: train total loss nan, train mean loss nan, test mean loss [nan nan nan nan nan nan nan]
+Model epoch 5: train total loss nan, train mean loss nan, test mean loss [nan nan nan nan nan nan nan]
+Model trained in 6 epochs with 5006 transitions.
+/workspace/submodules/ssrl/ssrl/brax/training/replay_buffers.py:121: FutureWarning:
+jax.tree_flatten is deprecated, and will be removed in a future release. Use jax.tree_util.tree_flatten instead.
