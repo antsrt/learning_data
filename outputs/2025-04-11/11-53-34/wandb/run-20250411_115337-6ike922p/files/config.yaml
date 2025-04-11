@@ -1,0 +1,248 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.10
+    cli_version: 0.15.5
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1744372417.9533
+    t:
+      1:
+      - 12
+      - 45
+      - 50
+      - 55
+      2:
+      - 12
+      - 45
+      - 50
+      - 55
+      3:
+      - 5
+      - 14
+      - 23
+      4: 3.8.10
+      5: 0.15.5
+      8:
+      - 5
+env:
+  desc: null
+  value: Go1GoFast
+algo:
+  desc: null
+  value: ssrl
+gpus:
+  desc: null
+  value: '0'
+ssrl:
+  desc: null
+  value:
+    seed: 0
+    sac_tau: 0.001
+    num_envs: 1
+    num_evals: 31
+    num_epochs: 30
+    real_ratio: 0.06
+    action_repeat: 1
+    num_eval_envs: 1
+    policy_repeat: 1
+    episode_length: 1000
+    sac_batch_size: 256
+    sac_discounting: 0.99
+    sac_fixed_alpha: null
+    sac_learning_rate: 0.0002
+    deterministic_eval: true
+    model_loss_horizon: 4
+    obs_history_length: 5
+    sac_reward_scaling: 1
+    max_env_buffer_size: 30000
+    model_learning_rate: 0.001
+    deterministic_in_env: true
+    hallucination_max_std: -1
+    max_model_buffer_size: 400000
+    init_exploration_steps: 1000
+    model_trains_per_epoch: 1
+    model_training_batch_size: 200
+    model_training_max_epochs: 1000
+    model_training_test_ratio: 0.2
+    model_check_done_condition: true
+    zero_final_layer_of_policy: false
+    env_steps_per_training_step: 1000
+    model_training_abs_criteria: null
+    model_training_weight_decay: true
+    model_training_stop_gradient: false
+    policy_normalize_observations: false
+    training_steps_per_model_train: 1
+    model_training_convergence_criteria: 0.01
+    clear_model_buffer_after_model_train: false
+    model_training_consec_converged_epochs: 6
+    model_training_max_sgd_steps_per_epoch: 20
+    model_rollouts_per_hallucination_update: 400
+    sac_grad_updates_per_hallucination_update: 40
+wandb:
+  desc: null
+  value:
+    entity: an-tsaritsin-itmo-university
+    log_ssrl: true
+common:
+  desc: null
+  value:
+    action_repeat: 1
+    forces_in_q_coords: true
+    obs_history_length: 5
+    normalize_observations: false
+env_ssrl:
+  desc: null
+  value:
+    fallen_roll: 0.785
+    reward_type: normalized
+    fallen_pitch: 0.785
+    policy_repeat: 4
+    friction_range:
+    - 0.6
+    - 0.6
+    yaw_rew_weight: 0.5
+    roll_rew_weight: 0.25
+    turn_rew_weight: 0.5
+    joint_gain_range:
+    - 1
+    - 1
+    pitch_rew_weight: 0.25
+    action_rew_weight: 0
+    energy_rew_weight: 0.25
+    foot_z_rew_weight: 0
+    ground_roll_range:
+    - 0
+    - 0
+    healthy_delta_yaw: 0.75
+    initial_yaw_range:
+    - 0
+    - 0
+    ang_vel_rew_weight: 0
+    contact_time_const: 0.02
+    forces_in_q_coords: true
+    ground_pitch_range:
+    - 0
+    - 0
+    cosmetic_rew_weight: 0
+    turn_cmd_rate_range:
+    - 0
+    - 0
+    forward_cmd_vel_type: constant
+    healthy_delta_radius: 0.5
+    joint_acc_rew_weight: 0
+    joint_lim_rew_weight: 0
+    link_mass_perc_range:
+    - 1
+    - 1
+    ang_change_rew_weight: 0.25
+    contact_damping_ratio: 1
+    forward_cmd_vel_range: 0
+    gains_in_action_space: false
+    include_height_in_obs: false
+    torque_lim_rew_weight: 0
+    forward_vel_rew_weight: 2
+    side_motion_rew_weight: 0.5
+    z_vel_change_rew_weight: 0.15
+    joint_damping_perc_range:
+    - 1
+    - 1
+    torque_lim_penalty_weight: 0.1
+    body_height_in_action_space: true
+    forward_cmd_vel_period_range:
+    - 40
+    - 40
+run_name:
+  desc: null
+  value: run_name
+num_seeds:
+  desc: null
+  value: 1
+env_common:
+  desc: null
+  value:
+    fallen_roll: 0.785
+    reward_type: normalized
+    fallen_pitch: 0.785
+    policy_repeat: 4
+    yaw_rew_weight: 0.5
+    roll_rew_weight: 0.25
+    turn_rew_weight: 0.5
+    pitch_rew_weight: 0.25
+    action_rew_weight: 0
+    energy_rew_weight: 0.25
+    foot_z_rew_weight: 0
+    ang_vel_rew_weight: 0
+    cosmetic_rew_weight: 0
+    joint_acc_rew_weight: 0
+    joint_lim_rew_weight: 0
+    ang_change_rew_weight: 0.25
+    gains_in_action_space: false
+    include_height_in_obs: false
+    torque_lim_rew_weight: 0
+    forward_vel_rew_weight: 2
+    side_motion_rew_weight: 0.5
+    z_vel_change_rew_weight: 0.15
+    torque_lim_penalty_weight: 0.1
+ssrl_model:
+  desc: null
+  value:
+    num_elites: 5
+    hidden_size: 400
+    ensemble_size: 7
+    probabilistic: true
+sweep_name:
+  desc: null
+  value: null
+render_seed:
+  desc: null
+  value: 0
+reset_actor:
+  desc: null
+  value: false
+reset_model:
+  desc: null
+  value: false
+save_policy:
+  desc: null
+  value:
+    ssrl: false
+    ssrl_all: false
+reset_critic:
+  desc: null
+  value: false
+actor_network:
+  desc: null
+  value:
+    max_std: 0.2
+    activation: swish
+    hidden_size: 512
+    hidden_layers: 2
+ssrl_hupts_fn:
+  desc: null
+  value:
+    end_epoch: 4
+    end_hupts: 1000
+    start_epoch: 0
+    start_hupts: 10
+ssrl_dynamics_fn:
+  desc: null
+  value: contact_integrate_only
+ssrl_start_with_sac:
+  desc: null
+  value: false
+render_epoch_interval:
+  desc: null
+  value: 5
+render_during_training:
+  desc: null
+  value: true
+ssrl_linear_threshold_fn:
+  desc: null
+  value:
+    end_epoch: 10
+    start_epoch: 0
+    end_model_horizon: 20
+    start_model_horizon: 1
