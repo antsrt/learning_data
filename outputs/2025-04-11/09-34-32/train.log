@@ -1,6 +1,0 @@
-[2025-04-11 09:34:36,237][root][INFO] - Converting mesh (5169853309637857172, -7654064841642339444) into convex hull.
-[2025-04-11 09:34:39,857][root][INFO] - Converting mesh (7900510714254649398, 3233268099182078322) into convex hull.
-[2025-04-11 09:34:40,288][root][INFO] - Converting mesh (7768852519576663285, 5726226509376993566) into convex hull.
-[2025-04-11 09:34:41,583][root][INFO] - Converting mesh (-263502327278625042, -4636912230059651305) into convex hull.
-[2025-04-11 09:34:42,576][root][INFO] - Converting mesh (7170902785045617846, -354392164214964557) into convex hull.
-[2025-04-11 09:44:14,686][rospy.core][INFO] - signal_shutdown [atexit]
